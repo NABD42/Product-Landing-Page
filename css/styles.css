@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@200;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.allNavbar {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.titreNavbar {
+    display: grid;
+    grid-template-columns: 50px auto;
+    margin-left: 2%;
+}
+
+.titreNavbar h2 {
+    font-family: Bebas neue;
+    font-size: 2rem;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.titreNavbar img {
+    width: 80%;
+    margin-top: 10px;
+}
+
+.navbar a{
+    display: inline;
+}
+
+.allNavbar img {
+    width: 50px;
+}
+
+.tete {
+    text-align: center;
+}
+
+.tete h1 {
+    padding-bottom: 25px;
+}
+
+.userEmail { 
+    font-weight: 500;
+    padding: 3px;
+    padding-right: 8px;
+    margin-bottom: 15px;
+}
+
+.btnSubmit {
+    padding: 7px;
+    font-stretch: expanded;
+    background-color: yellow;
+    font-family: Poppins, open sans condensed;
+    font-weight: 700;
+    border: 1px black;
+}
+
+.itemGold {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin-top: 100px;
+    text-align: left;
+}
+
+.itemImg img{
+    display: flex;
+    float: right;
+    width: 80px;
+
+}
+.itemGold h3, p {
+    margin: 10px;
+}
